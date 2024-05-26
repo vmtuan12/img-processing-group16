@@ -20,7 +20,22 @@ The primary objectives of this project are:
 # Installation
 ## Structure of the repository
 
+├── data_aug  # folder containing data augmentation scripts (possibly)\
+├── image_processing  # folder containing image processing scripts (possibly)\
+├── model  # folder containing the main model code\
+   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ├── linh  # folder containing linh's model\
+   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ├── trung  # folder containing trung's model\
+   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ├── tuan  # folder containing tuan's model\
+   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; └── vuong  # folder containing vuong's model\
+├── README.md  # main project readme file\
+└── requirements.txt  # file containing required python packages\
+
 ## Setup
+Firstly, install all the required dependencies
+
+```
+pip install -r requirements.txt
+```
 
 
 # Result

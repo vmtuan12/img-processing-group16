@@ -36,10 +36,13 @@ Firstly, install all the required dependencies
 pip install -r requirements.txt
 ```
 Secondly, change the dataset directory arccodingly 
-
+```
 local_dir = 'your path'
+```
 
 # Result
+
+####The best results from the models we used are shown in the table below.
 
 | Method | Validation Accuracy (%) |
 |---|---|
@@ -54,6 +57,3 @@ local_dir = 'your path'
 | Xception | 88.6 |
 | Vision Transform Tiny | 69.1 |
 | **4 Top Model Ensemble** | **93.6** |
-
-# Final report
-The report has been pushed to this repository.

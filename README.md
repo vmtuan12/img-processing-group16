@@ -3,7 +3,7 @@ Group 16 Mid-term project - Image processing course
 
 # Contributors
 - **Vu Minh Tuan**: Pipeline construction (from the beginning to Torch DataLoader), Data analysis, Data pre-processing, Model implementation (Simple convolution)
-- **Chu Ngoc Vuong**: Pipeline construction (Model training process), Model researching, Model implementation (Simple convolution, Inception, Xception, ViT, Ensemble)
+- **Chu Ngoc Vuong**: Pipeline construction (Model training process), Model researching, Model implementation (Simple convolution, Inception, Xception, ViT, Ensemble), Inference construction
 - **Le Viet Viet Linh**: Data pre-processing, Data augmentation, Model researching, Model implementation (Simple convolution, Residual Network)
 - **Pham Duc Trung**: Data pre-processing, Model researching, Model implementation (Alexnet, EfficientNet), Inference pipeline construction
 

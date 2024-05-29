@@ -41,7 +41,8 @@ pip install -r requirements.txt
 ```
 local_dir = 'your path'
 ```
-4.Optional: Change the model configuration 
+
+4. Optional: Change the model configuration 
 ```
 - Model name
 - Model parameters (e.g., learning rate, epochs, etc.).

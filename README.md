@@ -29,20 +29,28 @@ The primary objectives of this project are:
 └── Final-report  #Report of our method and result\
 
 ## Setup
-The traing and iference notebook is recommended to be run on Google Colab, with all processes automated for ease of use. Else if running on local machine you should:
+**The traing and iference notebook is recommended to be run on Google Colab, with all processes automated for ease of use. **
 
-Firstly, install all the required dependencies
+**If you are running locally:**
+
+1. Install all required dependencies:
 ```
 pip install -r requirements.txt
 ```
-Secondly, change the dataset directory arccodingly 
+2. Update the dataset directory path in the relevant script:
 ```
 local_dir = 'your path'
+```
+4.Optional: Change the model configuration 
+```
+- Model name
+- Model parameters (e.g., learning rate, epochs, etc.).
+- Checkpoint path.
 ```
 
 # Result
 
-The best results from the models we used are shown in the table below.
+The best results from the models we used are shown in the table below. The detail of each model t
 
 | Method | Validation Accuracy (%) |
 |---|---|
@@ -57,3 +65,5 @@ The best results from the models we used are shown in the table below.
 | Xception | 88.6 |
 | Vision Transform Tiny | 69.1 |
 | **4 Top Model Ensemble** | **93.6** |
+
+**For a detailed explanation of each model and the intuition behind their design, please refer to the final report.**

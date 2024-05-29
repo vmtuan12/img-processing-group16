@@ -42,7 +42,7 @@ local_dir = 'your path'
 
 # Result
 
-####The best results from the models we used are shown in the table below.
+The best results from the models we used are shown in the table below.
 
 | Method | Validation Accuracy (%) |
 |---|---|
